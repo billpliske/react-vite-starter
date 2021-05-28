@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview",
-    "postbuild": "react-snap"
+    "serve": "vite preview"
   },
   "dependencies": {
     "@fontsource/poppins": "^4.2.2",
