@@ -3,7 +3,6 @@ import reactRefresh from '@vitejs/plugin-react-refresh';
 import Vue from '@vitejs/plugin-vue';
 import Pages from 'vite-plugin-pages';
 
-// https://vitejs.dev/config/
 export default defineConfig({
     plugins: [
         reactRefresh(),
@@ -14,4 +13,11 @@ export default defineConfig({
             pagesDir: [{ dir: 'src/pages', baseRoute: '' }],
         }),
     ],
+    server: {
+        port: '4001',
+    },
+    build: {
+        outDir: 'build',
+        chunkSizeWarningLimit: 5000,
+    },
 });
