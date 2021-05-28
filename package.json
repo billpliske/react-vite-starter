@@ -25,7 +25,6 @@
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react": "^7.23.2",
     "prettier": "^2.2.1",
-    "react-snap": "^1.23.0",
     "vite": "^2.3.3",
     "vite-plugin-pages": "^0.12.1"
   }
